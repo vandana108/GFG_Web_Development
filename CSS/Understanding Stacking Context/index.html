@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    width: 700px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+    
+   
+
+  }
+  /* the default value of z-index is 0 */
+  .box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 25; /* z-index value is greater than z-index of box2 so box1 will be appear above box2*/
+  }
+  .box2{
+    width: 190px;
+    height: 190px;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 20;
+  }
+</style>
+<body>
+  <div class="container">
+    <div class="box1"></div>
+    <div class="box2"></div>
+  </div>
+</body>
+</html>
