@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: red;
+}
+h1:hover {
+  color: blue;
+}
+
+.operatorsass {
+  font-size: 30px;
+  color: red;
+}/*# sourceMappingURL=mystyle.css.map */
+
