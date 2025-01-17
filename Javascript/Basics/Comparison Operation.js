@@ -10,7 +10,7 @@ console.log(50==40);
  console.log("apple">"banana");
  console.log("glow">"glowing")
  console.log("bc"<"y"); 
- console.log("01"==1); //there is no comparison between  these no. because both are different but still it would give true  result as output because string is convert into number then  it make comparison so for this case we have to programm it as given below
+ console.log("01"==1); //there is no comparison between  these no. because both are different but still it would give true  result as output because string is convert into number then  it make comparison so for this case we have to program it as given below
  // console.log("05">=1);
 
  //  strict equality
