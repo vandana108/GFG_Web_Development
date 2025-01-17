@@ -1,3 +1,4 @@
+var readlineSync = require("readline-sync")
 const number = Number(readlineSync.question("enter a number"));
 const remainder= number%2;
 
