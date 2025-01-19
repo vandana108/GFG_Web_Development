@@ -7,24 +7,29 @@
   padding: 0;
  }
 .container{
-  width: 100%;
+  /* width: 100%; */
   margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
   justify-items: center;
-  background-color: hsl(60, 12%, 91%);
+  background-color: #CCD5E2;
   display: flex;
   justify-content: center;
-  height: 350px;
+  height: 450px;
   gap :5%;
+  border: 25px solid black;
+
   
   
 }
 .box-1{
   width: 450px;
-  height: 200px;
+  height: 250px;
   margin: 30px;
   border-radius: 5%;
   background-color: white;
   /* text-align: right; */
+  position: relative;
 
 }
 .dia-1{
@@ -32,30 +37,32 @@
  padding: 10px;
 }
 .btn-item{
-  position: relative;
-  top: 60px;
-  left: 45px;
-  margin-right: 5px;
+  position: relative ;
+  top: 80px;
+  left: 60px;
+  margin-right: 5px;;
   text-decoration: none;
   
 }
 .box-2{
   width: 450px;
-  height: 200px;
+  height: 350px;
   margin: 30px;
   border-radius: 5%;
   background-color: white;
   /* text-align: right; */
 
 }
-.dia-1{
-  margin-left: 10px;
- padding: 10px;
+.dia-2{
+  margin-top: 25px;
+  margin-left: 20px;
+  padding: 10px;
+  margin-bottom: 35px;
 }
 
 .box-3{
   width: 450px;
-  height: 200px;
+  height: 400px;
   margin: 30px;
   border-radius: 5%;
   background-color: white;
@@ -63,6 +70,18 @@
 
 }
 .dia-3{
+  margin-top: 30px;
   margin-left: 10px;
   padding: 10px;
+}
+.p-img{
+  width: 40px
+
+}
+.profile{
+  display: flex;
+}
+.profile-item{
+  margin-left: 5px;
+  padding-top: 10px;
 }
