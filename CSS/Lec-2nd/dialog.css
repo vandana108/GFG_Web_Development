@@ -1,0 +1,45 @@
+/*body{
+  background-color: red;
+} */
+ 
+ *{
+  margin: 0;
+  padding: 0;
+ }
+.container{
+  width: 50%;
+  justify-items: center;
+  background-color: hsl(60, 12%, 91%);
+  display: flex;
+  height: 350px;
+ 
+  gap :5%;
+  justify-content: center;
+  
+}
+.box-1{
+  width: 350px;
+  height: 250px;
+  margin: 10px;
+  background-color: red;
+  text-align: right;
+  
+
+
+
+}
+.box-2{
+  width: 300px;
+  height: 250px;
+  margin: 20px;
+  background-color: rgb(0, 17, 255);
+
+
+}
+ .box-3{
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+  background-color: rgb(0, 255, 13);
+
+}
