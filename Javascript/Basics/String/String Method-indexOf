@@ -1,0 +1,12 @@
+function findCharacter(text, char){
+  const index = text.indexOf(char);
+  if(index==-1){
+    return "Character not found"
+  }
+  else{
+    return "Character found at index " + index;
+  }
+}
+
+const result = findCharacter("Hi, I am Programmer", 'a');
+console.log(result);
