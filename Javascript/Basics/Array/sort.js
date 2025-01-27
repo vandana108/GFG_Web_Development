@@ -21,3 +21,9 @@ console.log(arrOfChar);
 arrOfChar.reverse();
 const reversedStr = arrOfChar.join("");
 console.log(reversedStr);
+
+//spread array
+
+const ar1 = [1, 2, 3, 4, 5];
+console.log("array- ", ar1);
+console.log(...ar1);
