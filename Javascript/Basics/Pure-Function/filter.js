@@ -13,11 +13,39 @@
 // const output = filterNumber(arr);
 // console.log(output);
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8];
-const reduceFun = (acc, cur) => acc+cur;
+
+//reduce() method
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// const reduceFun = (acc, cur) => acc+cur;
+// const answer = arr.reduce(reduceFun, 10);
+// console.log(answer);
 
 
+//argument method
+// let a =100;
+// function calculateTotal(a=34){
+//   console.log(a);
+//   // console.log(arguments);
+ 
 
-const answer = arr.reduce(reduceFun, 10);
+  
+// }
+// calculateTotal(90);
 
-console.log(answer);
+
+//Arguement Object
+
+// In case of default Parameter
+
+// Here in line 2 when the value of a is 4 as this was the argument passed to the hello function when it was called so the default value of a is changed to 4 from 10. 
+// Now when argument object value at zero index was changed to 9 .Will it going to change the value of a as well? 
+// No. Changing the argument object won't change the value of 'a'. The value of 'a' will be the initial value that was passed through the first call of the hello(4) method.
+function hello(a = 10){
+  console.log(a); // line2 
+  console.log(arguments); //line3
+  arguments[0] = 9;   // line4
+  console.log(arguments);   //line5
+  console.log(a);  //line6
+ }
+ 
+ hello(4);
