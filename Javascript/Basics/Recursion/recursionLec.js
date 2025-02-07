@@ -13,11 +13,24 @@
 // using recursion
 
 function calculateRec(num){
-  if(num == 1){
+  if(num === 1){
     return 1;
   }
  return num+calculateRec(num-1);
   // return num;
 }
-const result = calculateRec(4);
+const result = calculateRec(5);
 console.log(`This is the result = ${result} `);
+
+
+// Factorial code
+
+function factorialRec(number){
+  if(number ===1){
+    return number;
+  }return number*factorialRec(number-1);
+
+}
+
+const answer = factorialRec(5);
+console.log(`This is Factorial of &{number} = `+ answer);
