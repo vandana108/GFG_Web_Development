@@ -7,18 +7,28 @@
 // 5: It should not mutate the original argument
 
 // pure function 
-function getDoubleValue(number){
-  return number * 2;
+// function getDoubleValue(number){
+//   return number * 2;
 
-}
-const result = getDoubleValue(5);
-console.log(`This is the result = ${result}`);
+// }
+// const result = getDoubleValue(5);
+// console.log(`This is the result = ${result}`);
 
-// Note: if result is depend on outer parameter then it's called inpure function
-let x=10;
-function getSumValue(number){
-  return number * 2+x;
+// // Note: if result is depend on outer parameter then it's called inpure function
+// let x=10;
+// function getSumValue(number){
+//   return number * 2+x;
 
-}
-const answer = getSumValue(5);
-console.log(`This is the answer = ${answer}`);
+// }
+// const answer = getSumValue(5);
+// console.log(`This is the answer = ${answer}`);
+
+
+// //let is a block scoped variable
+
+// {
+//   let a=9;
+//   let x=7;
+// }
+
+
