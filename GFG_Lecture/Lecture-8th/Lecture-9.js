@@ -105,3 +105,22 @@ const quantityZero =  inventory.reduce((acc, cur) => cur.quantity === 0 ? cur: a
 console.log(quantityLessThan2)
 console.log(quantityZero);
 console.log(totalQuantity)
+
+
+//Question:
+// create an array to have 3 colors, create another array that will have the 3 colors from the 1st array and also add 2 new colors
+
+// const colors = ['red', 'green', 'blue'];
+//  const moreColors = [...colors, 'yellow', 'magneta'];
+//  console.log(colors)
+
+ const numberArr = [1,2, 3, 4,5,6];
+
+//  {even:12, odd: 9}
+
+// const evenNum = numberArr.reduce((acc, cur) => cur.numberArr%2===0? acc+cur.numberArr: acc, 0);
+
+let evenNum = numberArr.reduce((acc, cur)=> cur%2===0 ? {...acc, even: acc.even+cur} : {...acc,odd: acc.odd + cur}, {even: 0, odd: 0});
+console.log(evenNum);//will try to fix it
+
+//map, filter, reduce find findLastIndex some sort findIndex these are important for interview question
