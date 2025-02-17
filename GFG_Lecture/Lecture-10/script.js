@@ -73,3 +73,15 @@ const prakashDetails={
 
 const{name, age, address: {city, state}} = prakashDetails; //nested destructuring concept
 console.log(city);
+
+//this keyword
+
+
+const addres: {
+  city: 'Delhi',
+  country 'India',
+  showAddress: function(){
+    console.log(this, 'from show address');
+  },
+}
+console.log(address.showAddress());
