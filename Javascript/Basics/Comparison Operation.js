@@ -25,7 +25,8 @@ console.log(null === undefined)
 
 console.log(null==0)// null is null here
 
-console.log("2">"3");
+console.log("thisi ==" , "2">"3");
+console.log( "is ", 5<10)
 console.log(undefined == null);
 console.log(null>1)
 console.log(null<1);
