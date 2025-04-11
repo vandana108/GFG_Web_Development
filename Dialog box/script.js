@@ -1,0 +1,6 @@
+alert('Hi Dialog Box')
+confirm("Do you really want to open this link")
+prompt("Please give your concern")
+console.log('Type of Dialog box see below')
+const userInput= prompt("Enter your name? ")
+const userNamed = prompt("")

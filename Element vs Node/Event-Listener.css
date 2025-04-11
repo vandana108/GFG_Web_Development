@@ -1,0 +1,20 @@
+.container{
+ width: 100px;
+ height: 100px;
+  background-color: pink;
+}
+.card{
+  display: block;
+  max-width: 100px;
+  max-height: 300px;
+  justify-content: center;
+  text-align: center;
+  justify-content: flex;
+  color: white;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 50px;
+}
+h1{
+  background-color: maroon;
+}
