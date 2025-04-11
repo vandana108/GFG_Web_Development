@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  p{
+    color: red;
+  }
+  .head1{
+    color: green;
+
+
+  }
+  .head1:before{
+    content: '"';
+    color: red;
+    font-size: 50px;
+  }
+  #head2{
+  color: blue;
+  }
+
+  input[type="password"]:hover{
+    
+    background-color: aqua;
+    cursor: pointer;
+
+  }
+
+  input[type="password"]:focus{
+    
+    background-color: red
+    
+
+  }
+</style>
+<body>
+  <p>This is Paragraph</p>
+  <h1 class="head1">This is a Heading1</h1>
+  <h2 id="head2">this is Heading2</h2>
+  <input type="text" placeholder="Enter your name">
+  <input type="password"  placeholder="Enter your password">
+  
+</body>
+</html>

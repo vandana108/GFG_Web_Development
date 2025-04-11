@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  color: white;
+  gap: 10px;
+}
+nav ul li{
+  list-style: none;
+  color: white;
+}
+.styleLinked{
+  color: white;
+  text-decoration: none;
+
+}
+.styleLinked:link{
+  color: green;
+  transition: 0.3s;
+}
+.styleLinked:visited{
+  color: rgb(168, 160, 160);
+}
+.styleLinked:hover{
+  color: rgb(171, 226, 43);
+  
+}

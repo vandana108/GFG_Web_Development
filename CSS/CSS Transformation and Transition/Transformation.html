@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .hover-button{
+    align-content: center;
+    text-align: center;
+  }
+  .hover-button{
+    margin: 30px 35px;
+    padding: 10px;
+  
+    background-color: rgb(175, 175, 223);
+    font-size: 25px;
+    font-family: cursive;
+    border-radius: 5px;
+    color: white;
+
+  }
+  /* we want add transition */
+  .hover-button:hover{
+    background-color: pink;
+    transition: 1s;
+    /* transform: translate(50px) translateY(30px); */
+    /* transform: translate(50px) translateX(30px); */
+    /* scale property is used to increase the size */
+   
+    /* scale: 3.5;  */
+    /* transform: translate(50px, 30px) scaleY(1.5) rotateY(45deg); */
+    transform: translate(50px, 30px)  rotateY(145deg);
+  }
+</style>
+<body>
+  <button class="hover-button">Hi, there!🥳</button>
+  
+</body>
+</html>

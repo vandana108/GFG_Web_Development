@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+
+  }
+  .flexcont{
+    background-color: aqua;
+    max-width:800px;
+    min-height: 400px;
+    
+  }
+  .flexcont p{
+    background-color: red;
+   
+    color: rgb(43, 185, 69);
+    font-size: 25px;
+    border: 1px solid black;
+    box-sizing: border-box;
+  
+  }
+  .flexcont{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse;  */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+  }
+  p:nth-child(1){
+    flex-grow:1;
+    flex-shrink:1;
+    flex-basis:100px
+  }
+  p{
+    width: 350;
+    /* align-self: center; */
+    /* align-self: flex-start; */
+    align-self: baseline;
+  }
+
+</style>
+<body>
+  <div class="container flexcont">
+    <p>Hey</p>
+    <p>there!</p>
+    <p>How</p>
+    <p>are</p>
+    <p>you</p>
+  </div>
+  
+</body>
+</html>

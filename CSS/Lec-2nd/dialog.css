@@ -1,0 +1,107 @@
+/*body{
+  background-color: red;
+} */
+ 
+ *{
+  margin: 0;
+  padding: 0;
+ }
+.container{
+  /* width: 100%; */
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  justify-items: center;
+  background-color: #CCD5E2;
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  gap :5%;
+  border: 25px solid black;
+
+  
+  
+}
+.box-1{
+  /* width: 450px; */
+  width: 80%;
+  height: 250px;
+  margin: 30px;
+  border-radius: 5%;
+  background-color: white;
+  /* text-align: right; */
+  position: relative;
+
+}
+.dia-1{
+  margin-left: 10px;
+ padding: 10px;
+}
+.btn-item{
+  position: relative ;
+  top: 80px;
+  left: 60px;
+  margin-right: 5px;;
+  text-decoration: none;
+  
+}
+.box-2{
+  width: 450px;
+  height: 350px;
+  margin: 30px;
+  border-radius: 5%;
+  background-color: white;
+  /* text-align: right; */
+
+}
+.dia-2{
+  margin-top: 25px;
+  margin-left: 20px;
+  padding: 10px;
+  margin-bottom: 35px;
+}
+
+.box-3{
+  width: 450px;
+  height: 400px;
+  margin: 30px;
+  border-radius: 5%;
+  background-color: white;
+  /* text-align: right; */
+
+}
+.dia-3{
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 10px;
+}
+.p-img{
+  width: 40px
+
+}
+.profile{
+  display: flex;
+}
+.profile-item{
+  margin-left: 5px;
+  padding-top: 10px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

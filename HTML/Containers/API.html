@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API</title>
+</head>
+<body>
+  <button onclick="getUserLocation()">Get My Location</button>
+  <div id="location"></div>
+  
+</body>
+<script>
+  function getUserLocation(){
+    alert("hello user")
+    if(navigator.geolocation){
+      navigator.geolocation.getCurrentPosition(showPosition, showError);
+
+    }
+    else{
+      document.getElementById("location").innerHTML = "Geolocation is not supported by this browser"
+
+    }
+
+    function showPosition(){
+      console.log(position);
+
+    }
+    function showError(error)
+    {
+      console.log(error);
+    }
+  }
+
+  
+</script>
+</html>
