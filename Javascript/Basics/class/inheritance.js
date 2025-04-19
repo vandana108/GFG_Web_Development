@@ -29,11 +29,14 @@ class Lenovo extends Laptop{
     this.modelName = modelName
     
   }
+  displayMessage(){
+    super.displayMessage();
+  }
   location(){
     console.log(`Lenovo's working location is Mumbai and it provides this ${this.modelName} model`)
   }
 
 }
-const lenovo = new Lenovo('16GB', 'intell', 'i7', 'versonLen7');
+const lenovo = new Lenovo('16GB', 'intell', 'i7', 'Thinkpad');
 console.log(lenovo);
 lenovo.location();
