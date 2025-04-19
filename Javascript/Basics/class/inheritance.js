@@ -21,7 +21,7 @@ class Dell extends Laptop{
 const dell = new Dell('8GB', "intell", "i5");
 console.log(dell);
 
-
+dell.displayMessage();
 //child class
 class Lenovo extends Laptop{
   constructor(ram, processor, generation, modelName){
